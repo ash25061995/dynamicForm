@@ -1,4 +1,4 @@
-import FormFields from './components/DynamicForm/DynamicForm';
+import DynamicForm from './components/DynamicForm/DynamicForm';
 import {ThemeProvider} from 'styled-components'
 import GlobalStyles from './styles/globalStyles/globalStyles';
 import React from 'react';
@@ -15,7 +15,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles/>
-      <FormFields/>
+      <DynamicForm/>
     </ThemeProvider>
     
   );
