@@ -1,5 +1,4 @@
-import FormFields from './components/FormFields/FormFields';
-import Button from './components/Button/Button';
+import FormFields from './components/DynamicForm/DynamicForm';
 import {ThemeProvider} from 'styled-components'
 import GlobalStyles from './styles/globalStyles/globalStyles';
 import React from 'react';
